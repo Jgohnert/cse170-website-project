@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Roboto, arial, sans-serif;
+ 
+}
+
+#main {
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #003552;
+    color: white;
+    border-bottom: solid 5px #A42212;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 20px;
+}
+
+nav a {
+    background-color: #5d7783;
+    color: #003552;
+    text-decoration: none;
+    padding: 5px;
+    margin: 30px 10px;
+    font-size: 20px;
+    width: 200px;
+}
+
+nav a:hover {
+    background-color: #ffffff;
+    color: #003552;
+}
+
+
+
+.home-info {
+    margin-right: 80px;
+    text-align: left;
+}
+
+.home-info p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-1 p {
+    margin: 0px 50px 0px 50px;
+    line-height: 2em;
+}
+
+.web-image {
+    width: 70%;
+    margin: 20px;
+}
+
+
+footer {
+    background-color: #003552;
+    color: white;
+    border-top: solid 5px #A42212;
+    padding: 10px 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+footer p {
+    color: black;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer p a:hover {
+    background-color:#5d7783;
+    color: #003552;
+}
+footer .social img   {
+    padding-top: 15px;
+    background-color: #003552;
+}
+
+.text-1 {
+    text-align: center;
+
+}
+
+.Project-2-image {
+    display: flex;
+    flex-direction: row;
+}
+.devo-image {
+    width: 30%;
+    margin: 0px 130px;
+    border: solid 10px #5d7783;
+}
+
+li {
+    text-align: left;
+    font-weight: bold;
+}
+.stop-image {
+    width: 30%;
+    margin: 0px 10px;
+    border: solid 10px #5d7783;
+}
+.text-3 p {
+    margin-top: 50px;
+}
